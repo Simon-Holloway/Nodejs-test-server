@@ -1,18 +1,20 @@
 {
-  "name": "nodejs-practise",
+  "name": "backend",
   "version": "0.0.1",
-  "description": "Backend test server",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "Simon Holloway"
-  },
-  "author": "Simon Holloway",
-  "license": "ISC",
+  "author": "Matti Luukkainen",
+  "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
